@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a61929b3ae7904687bc8f65a95e87334, type: 3}
+  m_Name: SubmachineGun
+  m_EditorClassIdentifier: Assembly-CSharp::WeaponConfig
+  DisplayName: Submachine Gun
+  FireMode: 0
+  Ammo: {fileID: 11400000, guid: dbbbe47c71b104ebab86a98a3f6080d1, type: 2}
+  AmmoPerShot: 1
+  PickupAmmo: 50
+  Damage: 10
+  PelletsPerShot: 1
+  SpreadDegrees: 0
+  Range: 100
+  FireInterval: 0.1
+  Automatic: 1
+  ProjectilePrefab: {fileID: 0}
+  ProjectileSpeed: 25
